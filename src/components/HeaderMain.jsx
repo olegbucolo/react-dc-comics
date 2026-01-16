@@ -1,4 +1,5 @@
 import './HeaderMain.css';
+import dcLogo from '../../public/img/dc-logo.png';
 
 export function HeaderMain() {
     return (
@@ -6,7 +7,7 @@ export function HeaderMain() {
             <header className="header-main">
                 <nav className="nav-header-main">
                     <div className="div-logo-header-main">
-                        <a href=""><img src="" alt="" /></a>
+                        <a href=""><img src={dcLogo} alt="" /></a>
                     </div>
                     <ul className="ul-header-main">
                         <li><a href="#">Characters</a></li>
