@@ -1,0 +1,75 @@
+
+
+.div-footer-main-top{
+    display: flex;
+    background-image: url("./img/footer-bg.jpg");
+    position: relative;
+    overflow: hidden;
+    padding-left: 2rem;
+}
+
+.div-footer-main-top::before{
+    content: "";
+    position: absolute;
+    top: -20%;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    background-image: url("./img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+}
+
+.ul-footer-main-top{
+    text-align: start;
+    margin: 2rem
+}
+
+.ul-footer-main-top li{
+    margin-bottom: 1rem;
+}
+
+.ul-footer-main-top a{
+    color: grey;
+}
+
+footer h1{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.div-footer-main-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    background-color: rgb(48, 48, 48);
+}
+
+.div-footer-main-bottom ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-footer-main-bottom button{
+    color: white;
+    margin-left: 4rem;
+    border: .2rem solid rgb(0, 170, 255);
+    background-color: transparent;
+    padding: 1rem 2rem;
+}
+
+.div-footer-main-bottom ul li:first-child a{
+    color: rgb(0, 170, 255);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.div-footer-main-bottom ul{
+    margin-right: 8rem;
+}
+
+.div-footer-main-bottom li{
+    margin-left: 1rem
+}

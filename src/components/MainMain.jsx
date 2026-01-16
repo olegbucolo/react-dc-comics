@@ -1,9 +1,9 @@
 import './MainMain.css';
 
-export function MainMain(){
+export function MainMain() {
     return (
-        <>
-            <div>Main</div>
-        </>
+        <main>
+            <h1>{`--> Content Goes here <--`}</h1>
+        </main>
     )
 }

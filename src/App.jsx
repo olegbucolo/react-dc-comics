@@ -4,7 +4,7 @@ import { MainMain } from './components/MainMain';
 import { FooterMain } from './components/FooterMain';
 
 function App() {
-
+  
   return (
     <>
       <HeaderMain />

@@ -1,7 +1,10 @@
 html{
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
+}
 
+body{
+    background-color: black;
 }
 
 * {
