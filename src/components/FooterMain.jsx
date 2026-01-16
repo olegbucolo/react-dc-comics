@@ -1,3 +1,5 @@
+import './FooterMain.css';
+
 export function FooterMain() {
     return (
         <>

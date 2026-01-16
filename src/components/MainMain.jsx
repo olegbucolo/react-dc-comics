@@ -1,3 +1,5 @@
+import './MainMain.css';
+
 export function MainMain(){
     return (
         <>
