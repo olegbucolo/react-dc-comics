@@ -1,9 +1,47 @@
-main h1{
+main h1 {
     color: white;
     padding: 4rem 2rem 4rem 4rem;
 }
 
-main{
+main {
     background-color: rgb(12, 9, 9);
 }
 
+.ul-comic-articles {
+    padding: 8rem 8rem 4rem 4rem;
+    display: flex;
+    gap: 4rem;
+    flex-flow: wrap;
+}
+
+.ul-comic-articles li {
+    width: calc((100% - 4rem * 5) / 6);
+    color: white;
+}
+
+.thumb-comic-article {
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    object-position: top;
+}
+
+.ul-comic-articles h3{
+    font-weight: 100;
+    text-transform: uppercase
+}
+
+.main-comic-articles{
+    padding-bottom: 4rem;
+}
+
+.main-comic-articles button{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(0, 170, 255);
+    border: none;
+    padding: 1rem 4rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
