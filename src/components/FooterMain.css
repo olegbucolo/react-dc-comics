@@ -58,6 +58,7 @@ footer h1{
     border: .2rem solid rgb(0, 170, 255);
     background-color: transparent;
     padding: 1rem 2rem;
+    cursor: pointer;
 }
 
 .div-footer-main-bottom ul li:first-child a{
@@ -71,5 +72,6 @@ footer h1{
 }
 
 .div-footer-main-bottom li{
-    margin-left: 1rem
+    margin-left: 1rem;
+    cursor: pointer;
 }
