@@ -1,0 +1,10 @@
+.section-jumbo{
+    position: relative;
+    height: 33rem;
+    overflow: hidden;
+    /* z-index: 20; */
+}
+
+.img-jumbo-bg{
+    width: 100%;
+}

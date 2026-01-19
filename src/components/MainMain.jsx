@@ -5,6 +5,8 @@ export function MainMain() {
 
     return (
         <main className="main-comic-articles">
+            <div className="div-current-series">Current Series</div>
+
             <ul className="ul-comic-articles">
                 {comicsData.map(comicArticle => {
                     return (

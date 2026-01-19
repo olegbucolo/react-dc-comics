@@ -33,6 +33,7 @@ main {
 
 .main-comic-articles{
     padding-bottom: 4rem;
+    position: relative;
 }
 
 .main-comic-articles button{
@@ -44,4 +45,19 @@ main {
     color: white;
     font-weight: 600;
     cursor: pointer;
+}
+
+
+.div-current-series{
+    position: absolute;
+    top: -2rem;
+    left: 2rem;
+    color: white;
+    background-color: rgb(0, 170, 255);
+    padding: .5rem 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    z-index: 22;
 }
