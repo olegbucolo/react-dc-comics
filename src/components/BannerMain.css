@@ -1,0 +1,27 @@
+.section-banner {
+    background-color: rgb(0, 170, 255);
+}
+
+.section-banner ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 4rem 0;
+}
+
+.section-banner li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.section-banner img{
+    margin-right: 1rem;
+    height: 5rem;
+}
+
+* {
+    color: white;
+    text-transform: uppercase;
+}
