@@ -2,8 +2,8 @@ import './App.css';
 import { HeaderMain } from './components/HeaderMain';
 import { MainMain } from './components/MainMain';
 import { FooterMain } from './components/FooterMain';
-import { JumboMain } from './components/JumboMain';
-import { BannerMain} from './components/BannerMain'
+import { JumboMain } from './components/main/JumboMain';
+import { BannerMain} from './components/main/BannerMain'
 
 function App() {
   

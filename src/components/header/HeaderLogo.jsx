@@ -1,4 +1,4 @@
-import dcLogo from '../../public/img/dc-logo.png';
+import dcLogo from '../../../public/img/dc-logo.png';
 
 export function HeaderLogo() {
     return (

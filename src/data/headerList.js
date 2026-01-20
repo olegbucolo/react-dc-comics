@@ -1,4 +1,4 @@
-[
+const headerList = [
     {id: 1, title: "characters", anchor: "#"},
     {id: 2, title: "comics", anchor: "#"},
     {id: 3, title: "movies", anchor: "#"},
@@ -10,3 +10,5 @@
     {id: 9, title: "news", anchor: "#"},
     {id: 10, title: "shop", anchor: "#"},
 ]
+
+export default headerList

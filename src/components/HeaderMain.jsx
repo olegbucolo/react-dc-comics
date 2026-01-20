@@ -1,6 +1,6 @@
 import './HeaderMain.css';
-import { HeaderLogo } from './HeaderLogo';
-import { HeaderList } from './HeaderList';
+import { HeaderLogo } from './header/HeaderLogo';
+import { HeaderList } from './header/HeaderList';
 
 export function HeaderMain() {
     return (

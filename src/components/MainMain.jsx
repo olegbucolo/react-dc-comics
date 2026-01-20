@@ -1,6 +1,6 @@
 import './MainMain.css';
 import comicsData from '../data/comics';
-import { ComicCard } from './ComicCard';
+import { ComicCard } from './main/ComicCard';
 
 export function MainMain() {
 
@@ -11,8 +11,8 @@ export function MainMain() {
             <ul className="ul-comic-articles">
                 {comicsData.map(comicArticle => {
                     return (
-                        <ComicCard
-                            comicId={comicArticle.id}
+                        <ComicCard 
+                            key={comicArticle.id}
                             comicThumb={comicArticle.thumb}
                             comicTitle={comicArticle.title}
                             comicDescription={comicArticle.description} />
